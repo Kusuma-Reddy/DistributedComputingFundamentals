@@ -1,0 +1,10 @@
+#similar to docker_script.sh file last time
+#to log into a container:
+docker exec -it mynginx1 bash
+#change to correct path:
+cd usr/share/nginx/html/
+#overwrite your html code:
+cat >index.html
+#paste the shortened url of the image of your html code
+#exit
+ctrl+d
