@@ -29,8 +29,16 @@ cat index.html
 
 #to append the default html code
 cat >index.html
-#default html doc is displayed
+#default html code is displayed
 #exit
+
+#tag your nginx file:
+docker tag <image id> <dockerhub_username>/<image>:<tag>
+Ex:docker tag ab56bba91343 kusumareddyv/nginx:group8
+#push image to docker hub:
+docker push <dockerhub_username>/<image>:version
+Ex:docker push kusumareddyv/nginx:group8
+#done!!!
 
 
 
