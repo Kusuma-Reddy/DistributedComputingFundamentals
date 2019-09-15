@@ -29,8 +29,8 @@ cat index.html
 
 #to append the default html code
 cat >index.html
-#open your web browser
-0.0.0.0
+#default html doc is displayed
+#exit
 
 
 
